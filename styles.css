@@ -1,3 +1,8 @@
+body {
+    background: linear-gradient(to right, #FF439D, #882AAE);
+}
+
+
 .backgroundGradient {
     background: linear-gradient(to bottom, #ED5F46, #C3006B);
 }
