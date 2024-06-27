@@ -2,7 +2,6 @@ body {
     background: linear-gradient(to right, #FF439D, #882AAE);
 }
 
-
 .backgroundGradient {
     background: linear-gradient(to bottom, #ED5F46, #C3006B);
 }
@@ -36,6 +35,10 @@ body {
     border: solid 2px rgb(172, 7, 89);
 }
 
+.divPesquisar button:active {
+    transform: scale(0.9);
+}
+
 #borderCategorias {
     border: 1px white solid;
 }
@@ -53,7 +56,7 @@ body {
     display: flex;
 }
 
-#borderButton{
+#borderButton {
     border: 1px white solid;
     border-radius: 5px;
     height: 37px;
@@ -64,10 +67,27 @@ body {
     margin-top: 10px;
 }
 
-#borderCarrito{
+#borderCarrito {
     margin-top: 6px;
 }
 
-#borderButton:hover{
+#borderButton:hover {
     border: 1px rgb(172, 7, 89) solid;
+}
+
+#borderButton:active {
+    transform: scale(0.9);
+}
+
+/*Footer*/
+.divFooter{
+    background: linear-gradient(to bottom, #ED5F46, #C3006B);
+}
+
+.hoverLink{
+    text-decoration: none; 
+}
+
+.hoverLink:hover {
+    background: linear-gradient(to right, #FF439D, #882AAE);
 }
