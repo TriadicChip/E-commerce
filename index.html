@@ -28,7 +28,7 @@
         <ul class="navbar-nav flex-grow-1">
           <form class="d-flex divPesquisar" role="search">
             <input class="form-control me-2" type="search" placeholder="Digite o que você procura" aria-label="Search">
-            <button class="btn btn-outline-success text-white bg-danger" type="submit">Pesquisar</button>
+            <button class="btn text-white bg-danger" type="submit">Pesquisar</button>
           </form>
         </ul>
 
@@ -86,8 +86,20 @@
     </div>
   </nav>
 
-  <header>
-
+  <header class="container">
+    <div id="carouselMain" class="carousel carousel-dark slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselMain" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselMain" data-slide-to="1" class="active"></li>
+          <li data-target="#carouselMain" data-slide-to="2" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active text-center" data-interval="30000">
+              <img src="imagens/Kurumi.jpeg" alt="" class="img-fluid d-none d-md-block">
+              <img src="imagens/Albedo figure.jpg" alt="" class="img-fluid d-none d-md-none">
+            </div>
+        </div>
+    </div>
   </header>
 
   <main>
@@ -101,7 +113,7 @@
           <div class="col-md-3 text-center mt-3">
             <a href="#" onclick="window.location.reload();" style="text-decoration: none; color: white;">
               <img src="imagens/MiyukiGeek.png" class="img-fluid" alt="Imagem Recarrega Página" width="130px"
-                height="130px">
+                height="130px"> 
               </a>
             <div class="social-links">
               <a href="#" target="_blank" class="text-white"><img src="imagens/logo-insta.png" alt="Logo Instagram"
