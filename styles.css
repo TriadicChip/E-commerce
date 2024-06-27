@@ -92,3 +92,51 @@ body {
 .hoverLink:hover {
     background: linear-gradient(to right, #FF439D, #882AAE);
 }
+
+.carousel-inner {
+    height: 500px;
+    overflow: hidden;
+    border: black 1px solid;
+}
+
+.divDestaquesDaSemana{
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.destaquesDaSemana{
+    width: 450px;
+    height: 45px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: #FF007A;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+.divDescontosSemanaisFundo{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(to right, #FD7CC5, #F4BBCC);
+    margin-top: 100px;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+/*Carousel*/
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 16rem; /* Diminui a largura do card */
+    margin: 0 10px;
+}
+

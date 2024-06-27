@@ -86,70 +86,198 @@
     </div>
   </nav>
 
+  <div class="divDestaquesDaSemana">
+    <div class="destaquesDaSemana">
+      <h2>Destaques da Semana</h2>
+    </div>
+  </div>
+
   <header class="container">
-    <div id="carouselMain" class="carousel carousel-dark slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselMain" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselMain" data-slide-to="1" class="active"></li>
-          <li data-target="#carouselMain" data-slide-to="2" class="active"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active text-center" data-interval="30000">
-              <img src="imagens/Kurumi.jpeg" alt="" class="img-fluid d-none d-md-block">
-              <img src="imagens/Albedo figure.jpg" alt="" class="img-fluid d-none d-md-none">
-            </div>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href=""><img src="imagens/Kurumi.jpeg" class="d-block w-100 img-fluid" alt="..."></a>
         </div>
+        <div class="carousel-item">
+          <a href=""><img src="imagens/Kurumi.jpeg" class="d-block w-100 img-fluid" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href=""><img src="imagens/Kurumi.jpeg" class="d-block w-100 img-fluid" alt="..."></a>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </header>
+
+  <!--Cards que giram-->
+  <div class="divDescontosSemanaisFundo">
+    <div class="divDestaquesDaSemana">
+      <div class="destaquesDaSemana mt-5">
+        <h2>Descontos Semanais</h2>
+      </div>
+    </div>
+
+    
+      <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title 1</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title 2</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title 3</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title 4</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title 5</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title 6</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Adicione mais slides conforme necessário -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+  </div>
+
+
+
+
 
   <main>
 
   </main>
 
   <!--Rodapé-->
-  <footer class="border-top fixed-bottom p-2 bg-dark text-white d-flex justify-content-center align-items-center">
-        <div class="row d-flex justify-content-center align-items-center">
-          <!-- Primeira Div -->
-          <div class="col-md-3 text-center mt-3">
-            <a href="#" onclick="window.location.reload();" style="text-decoration: none; color: white;">
-              <img src="imagens/MiyukiGeek.png" class="img-fluid" alt="Imagem Recarrega Página" width="130px"
-                height="130px"> 
-              </a>
-            <div class="social-links">
-              <a href="#" target="_blank" class="text-white"><img src="imagens/logo-insta.png" alt="Logo Instagram"
-                  width="50px" height="50px"></a>
-              <a href="#" target="_blank" class="text-white ml-2"><img src="imagens/logo-insta.png" alt="Logo Instagram"
-                  width="50px" height="50px"></a>
-              <a href="#" target="_blank" class="text-white ml-2"><img src="imagens/logo-insta.png" alt="Logo Instagram"
-                  width="50px" height="50px"></a>
-            </div>
-          </div>
-          <!-- Segunda Div -->
-          <div class="col-md-2 mt-3 me-1 text-center bg-danger p-2 border"style="height: 150px;">
-            <h5 class="text-white">Menu</h5>
-            <div id="divFooter" class="text-white">
-              <a href="#" class="text-white d-block hoverLink">Figures</a>
-              <a href="#" class="text-white d-block hoverLink">Acessórios</a>
-              <a href="#" class="text-white d-block hoverLink">Roupas</a>
-              <a href="#" class="text-white d-block hoverLink">Decorações</a>
-            </div>
-          </div>
-          <!-- Terceira Div -->
-          <div class="col-md-2 mt-3 me-1 text-center bg-danger p-2 border" style="height: 150px;">
-            <h5 class="text-white">Suporte</h5>
-            <div class="text-white ">
-              <a href="#" class="text-white d-block hoverLink">Politica de Privacidade</a>
-              <a href="#" class="text-white d-block hoverLink">Termos de uso de Contato</a>
-            </div>
-          </div>
-          <!-- Quarta Div -->
-          <div class="col-md-2 mt-3 me-1 text-center bg-danger p-2 border" style="height: 150px;">
-            <h5 class="text-white">Notificações</h5>
-            <div class="text-white">
-              <a href="#" class="text-white d-block hoverLink">Seja o primeiro a saber dos nossos novos itens!</a>
-            </div>
-          </div>
+  <footer class="border-top p-2 bg-dark text-white d-flex justify-content-center align-items-center">
+    <div class="row d-flex justify-content-center align-items-center">
+      <!-- Primeira Div -->
+      <div class="col-md-3 text-center mt-3">
+        <a href="#" onclick="window.location.reload();" style="text-decoration: none; color: white;">
+          <img src="imagens/MiyukiGeek.png" class="img-fluid" alt="Imagem Recarrega Página" width="130px"
+            height="130px">
+        </a>
+        <div class="social-links">
+          <a href="#" target="_blank" class="text-white"><img src="imagens/logo-insta.png" alt="Logo Instagram"
+              width="50px" height="50px"></a>
+          <a href="#" target="_blank" class="text-white ml-2"><img src="imagens/logo-insta.png" alt="Logo Instagram"
+              width="50px" height="50px"></a>
+          <a href="#" target="_blank" class="text-white ml-2"><img src="imagens/logo-insta.png" alt="Logo Instagram"
+              width="50px" height="50px"></a>
         </div>
+      </div>
+      <!-- Segunda Div -->
+      <div class="col-md-2 mt-3 me-1 text-center bg-danger p-2 border" style="height: 150px;">
+        <h5 class="text-white">Menu</h5>
+        <div id="divFooter" class="text-white">
+          <a href="#" class="text-white d-block hoverLink">Figures</a>
+          <a href="#" class="text-white d-block hoverLink">Acessórios</a>
+          <a href="#" class="text-white d-block hoverLink">Roupas</a>
+          <a href="#" class="text-white d-block hoverLink">Decorações</a>
+        </div>
+      </div>
+      <!-- Terceira Div -->
+      <div class="col-md-2 mt-3 me-1 text-center bg-danger p-2 border" style="height: 150px;">
+        <h5 class="text-white">Suporte</h5>
+        <div class="text-white ">
+          <a href="#" class="text-white d-block hoverLink">Politica de Privacidade</a>
+          <a href="#" class="text-white d-block hoverLink">Termos de uso de Contato</a>
+        </div>
+      </div>
+      <!-- Quarta Div -->
+      <div class="col-md-2 mt-3 me-1 text-center bg-danger p-2 border" style="height: 150px;">
+        <h5 class="text-white">Notificações</h5>
+        <div class="text-white">
+          <a href="#" class="text-white d-block hoverLink">Seja o primeiro a saber dos nossos novos itens!</a>
+        </div>
+      </div>
+    </div>
     </div>
   </footer>
 
