@@ -85,10 +85,6 @@ body {
     background: linear-gradient(to bottom, #ED5F46, #C3006B);
 }
 
-.hoverLink{
-    text-decoration: none; 
-}
-
 .hoverLink:hover {
     background: linear-gradient(to right, #FF439D, #882AAE);
 }
@@ -129,13 +125,7 @@ body {
     border-bottom: 10px solid black;
 }
 
-/*Carousel*/
-.carousel-item {
-    display: flex;
-    justify-content: center;
-    display: flex;
-}  
-
+/*Carousel de Cards*/ 
 .innerCards {
     border: none;
     outline: none;
@@ -146,6 +136,7 @@ body {
 .card {
     width: 16rem; /* Ajuste o tamanho conforme necessário */
 }
+
 
 /*Cards 2*/
 .divLancamentosRecentesFundo{
