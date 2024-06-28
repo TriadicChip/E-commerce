@@ -134,9 +134,8 @@ body {
 }
 
 .card {
-    width: 16rem; /* Ajuste o tamanho conforme necessário */
+    width: 18rem; /* Ajuste o tamanho conforme necessário */
 }
-
 
 /*Cards 2*/
 .divLancamentosRecentesFundo{
@@ -144,6 +143,10 @@ body {
     height: 750px;
     background: linear-gradient(to right, #D10466, #882AAE);
     border-bottom: 10px solid black;
+}
+
+.CIcards{
+    height: 500px;
 }
 
 
