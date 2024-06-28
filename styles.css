@@ -149,5 +149,58 @@ body {
     height: 500px;
 }
 
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+#Miku2Img {
+    display: block;
+}
+
+/*Responsividade*/
+@media screen and (min-width: 1px) and (max-width:575px)/*Mudar IMG Carrosel*/
+{
+    #Miku2Img {
+        content: url('imagens/Hatsune\ Miku\,\ the\ Muse\ of\ Creation\ -\ small.webp');
+    }
+
+    #divJuan{
+        height: 400px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px)/*Mudar IMG Carrosel*/
+{
+    #Miku2Img {
+        content: url('imagens/Hatsune\ Miku\,\ the\ Muse\ of\ Creation\ -\ small.webp');
+    }
+
+    #divJuan{
+        height: 680px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px)/*Diminuir Carrosel*/
+{
+    #divJuan{
+        height: 290px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px)/*Diminuir Cabeçalho*/
+{
+    #divJuan{
+        height: 390px;
+        overflow: hidden;
+    }
+}
+
 
 
