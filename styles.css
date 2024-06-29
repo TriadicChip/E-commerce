@@ -120,7 +120,7 @@ body {
     width: 100%;
     height: 750px;
     background: linear-gradient(to right, #FD7CC5, #F4BBCC);
-    margin-top: 100px;
+    margin-top: 70px;
     border-top: 10px solid black;
     border-bottom: 10px solid black;
 }
@@ -164,6 +164,10 @@ body {
 
 #Toki2Img {
     display: block;
+}
+
+.sem-sublinhado {
+    text-decoration: none;
 }
 
 /*Responsividade Miku*/
