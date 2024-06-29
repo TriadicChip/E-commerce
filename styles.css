@@ -158,7 +158,15 @@ body {
     display: block;
 }
 
-/*Responsividade*/
+#Nene2Img {
+    display: block;
+}
+
+#Toki2Img {
+    display: block;
+}
+
+/*Responsividade Miku*/
 @media screen and (min-width: 1px) and (max-width:575px)/*Mudar IMG Carrosel*/
 {
     #Miku2Img {
@@ -202,5 +210,92 @@ body {
     }
 }
 
+/*Responsividade Nene*/
+@media screen and (min-width: 1px) and (max-width:575px)/*Mudar IMG Carrosel*/
+{
+    #Nene2Img {
+        content: url('imagens/Nendoroid\ Momosuzu\ Nene\ -\ small.webp');
+    }
+
+    #divJuan{
+        height: 400px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px)/*Mudar IMG Carrosel*/
+{
+    #Nene2Img {
+        content: url('imagens/Nendoroid\ Momosuzu\ Nene\ -\ small.webp');
+    }
+
+    #divJuan{
+        height: 680px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px)/*Diminuir Carrosel*/
+{
+    #divJuan{
+        height: 290px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px)/*Diminuir Cabeçalho*/
+{
+    #divJuan{
+        height: 390px;
+        overflow: hidden;
+    }
+}
+
+/*Responsividade Toki*/
+@media screen and (min-width: 1px) and (max-width:575px)/*Mudar IMG Carrosel*/
+{
+    #Toki2Img {
+        content: url('imagens/Toki\ Asuma\ \(Bunny\ Girl\)\ -\ small.webp');
+    }
+
+    #divJuan{
+        height: 400px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px)/*Mudar IMG Carrosel*/
+{
+    #Toki2Img {
+        content: url('imagens/Toki\ Asuma\ \(Bunny\ Girl\)\ -\ small.webp');
+    }
+
+    #divJuan{
+        height: 680px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px)/*Diminuir Carrosel*/
+{
+    #divJuan{
+        height: 290px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px)/*Diminuir Cabeçalho*/
+{
+    #divJuan{
+        height: 390px;
+        overflow: hidden;
+    }
+}
 
 
