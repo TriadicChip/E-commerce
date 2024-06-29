@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="pt-br">
-
+<!--Caso n de pra abrir esse tem o arquivo index html na mesma pasta-->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
