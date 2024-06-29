@@ -1,0 +1,305 @@
+body {
+    background: linear-gradient(to right, #FF439D, #882AAE);
+}
+
+.backgroundGradient {
+    background: linear-gradient(to bottom, #ED5F46, #C3006B);
+}
+
+.Loguinho {
+    width: 75px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.navbar-brand {
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.divPesquisar {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.divPesquisar button {
+    border: solid 2px white;
+}
+
+.divPesquisar button:hover {
+    border: solid 2px rgb(172, 7, 89);
+}
+
+.divPesquisar button:active {
+    transform: scale(0.9);
+}
+
+#borderCategorias {
+    border: 1px white solid;
+}
+
+#fundoDrop {
+    background: linear-gradient(to right, #ED5F46, #C3006B);
+}
+
+#divCE {
+    border-radius: 5px;
+    border: 1px white solid;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#borderButton {
+    border: 1px white solid;
+    border-radius: 5px;
+    height: 37px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#borderCarrito {
+    margin-top: 6px;
+}
+
+#borderButton:hover {
+    border: 1px rgb(172, 7, 89) solid;
+}
+
+#borderButton:active {
+    transform: scale(0.9);
+    border: white 1px solid;
+}
+
+/*Footer*/
+.divFooter{
+    background: linear-gradient(to bottom, #ED5F46, #C3006B);
+}
+
+.hoverLink:hover {
+    background: linear-gradient(to right, #FF439D, #882AAE);
+}
+
+.carousel-inner {
+    height: 450px;
+    overflow: hidden;
+    border: black 1px solid;
+}
+
+.divDestaquesDaSemana{
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.destaquesDaSemana{
+    width: 450px;
+    height: 45px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: #FF007A;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+.divDescontosSemanaisFundo{
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(to right, #FD7CC5, #F4BBCC);
+    margin-top: 70px;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+/*Carousel de Cards*/ 
+.innerCards {
+    border: none;
+    outline: none;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.card {
+    width: 18rem; /* Ajuste o tamanho conforme necessário */
+}
+
+/*Cards 2*/
+.divLancamentosRecentesFundo{
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(to right, #D10466, #882AAE);
+    border-bottom: 10px solid black;
+}
+
+.CIcards{
+    height: 500px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+#Miku2Img {
+    display: block;
+}
+
+#Nene2Img {
+    display: block;
+}
+
+#Toki2Img {
+    display: block;
+}
+
+.sem-sublinhado {
+    text-decoration: none;
+}
+
+/*Responsividade Miku*/
+@media screen and (min-width: 1px) and (max-width:575px)/*Mudar IMG Carrosel*/
+{
+    #Miku2Img {
+        content: url('imagens/Hatsune\ Miku\,\ the\ Muse\ of\ Creation\ -\ small.webp');
+    }
+
+    #divJuan{
+        height: 400px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px)/*Mudar IMG Carrosel*/
+{
+    #Miku2Img {
+        content: url('imagens/Hatsune\ Miku\,\ the\ Muse\ of\ Creation\ -\ small.webp');
+    }
+
+    #divJuan{
+        height: 680px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px)/*Diminuir Carrosel*/
+{
+    #divJuan{
+        height: 290px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px)/*Diminuir Cabeçalho*/
+{
+    #divJuan{
+        height: 390px;
+        overflow: hidden;
+    }
+}
+
+/*Responsividade Nene*/
+@media screen and (min-width: 1px) and (max-width:575px)/*Mudar IMG Carrosel*/
+{
+    #Nene2Img {
+        content: url('imagens/Nendoroid\ Momosuzu\ Nene\ -\ small.webp');
+    }
+
+    #divJuan{
+        height: 400px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px)/*Mudar IMG Carrosel*/
+{
+    #Nene2Img {
+        content: url('imagens/Nendoroid\ Momosuzu\ Nene\ -\ small.webp');
+    }
+
+    #divJuan{
+        height: 680px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px)/*Diminuir Carrosel*/
+{
+    #divJuan{
+        height: 290px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px)/*Diminuir Cabeçalho*/
+{
+    #divJuan{
+        height: 390px;
+        overflow: hidden;
+    }
+}
+
+/*Responsividade Toki*/
+@media screen and (min-width: 1px) and (max-width:575px)/*Mudar IMG Carrosel*/
+{
+    #Toki2Img {
+        content: url('imagens/Toki\ Asuma\ \(Bunny\ Girl\)\ -\ small.webp');
+    }
+
+    #divJuan{
+        height: 400px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px)/*Mudar IMG Carrosel*/
+{
+    #Toki2Img {
+        content: url('imagens/Toki\ Asuma\ \(Bunny\ Girl\)\ -\ small.webp');
+    }
+
+    #divJuan{
+        height: 680px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px)/*Diminuir Carrosel*/
+{
+    #divJuan{
+        height: 290px;
+        overflow: hidden;
+        border: black 1px solid;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px)/*Diminuir Cabeçalho*/
+{
+    #divJuan{
+        height: 390px;
+        overflow: hidden;
+    }
+}
+
+
