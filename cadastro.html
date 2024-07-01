@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <style>
+        .centraliza-vertical {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .card-custom {
+            border-radius: 10px;
+            background: linear-gradient(to top, #FD7CC5, #F4BBCC);
+            border: 2px solid white;
+            height: 700px;
+        }
+
+        .linha-rosa {
+            height: 2px;
+            background-color: #f06292;
+            margin: 20px 0;
+        }
+
+        .opcoes-login {
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .captcha-text {
+            font-size: 12px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .alignCriarContaUsando {
+            width: 100%;
+            height: 60px;
+            background: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .alignCriarContaUsando p {
+            font-size: 22px;
+            color: white;
+        }
+
+        #div-social-links {
+            width: 100%;
+            height: 60px;
+            background-color: green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .fundoRosinha {
+            height: 800px;
+            background-color: pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #fundoMiyukiGeek{
+            background: black;
+          
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="fundoRosinha">
+        <div class="container bg-danger">
+            <div class="row centraliza-vertical">
+                <div class="col-md-6 offset-md-3">
+                    <div class="card card-custom p-4">
+                        <!-- Logo do site -->
+                        <div class="text-center mb-3">
+                            <a href="">
+                                <img src="imagens/MiyukiGeek.png" alt="Logo do Site"
+                                    style="width: 250px; height: 250px;">
+                                <p id="fundoMiyukiGeek" class="justify-content-center align-items-center" 
+                                style="color: white; text-decoration: none; ">Teste de texto</p>
+                            </a>
+                        </div>
+                        <!-- Botões de Criar Conta e Login -->
+                        <div class="text-center mb-3">
+                            <button class="btn btn-primary mr-3">Criar uma Conta</button>
+                            <button class="btn btn-outline-primary">Login</button>
+                        </div>
+                        <!-- Linha Rosa -->
+                        <div class="linha-rosa"></div>
+                        <!-- Criar conta usando -->
+                        <div class="opcoes-login text-center mb-3">
+                            <div class="alignCriarContaUsando">
+                                <p>Criar conta usando</p>
+                            </div>
+                            <div id="div-social-links" class="social-links">
+                                <a href=""><img src="imagens/logo-insta.png" alt="Instagram" width="50" height="50"></a>
+                                <a href=""><img src="imagens/Logo_Face.png" alt="Facebook" width="45" height="40"></a>
+                                <a href=""><img src="imagens/Logo-Google.png" alt="Google" width="43" height="43"></a>
+                                <a href=""><img src="imagens/Logo_Twitter.png" alt="Twitter" width="50" height="50"></a>
+                            </div>
+                        </div>
+                        <!-- Captcha -->
+                        <div class="captcha-text">
+                            <p>Este site é protegido pelo reCAPTCHA Enterprise e aplicam-se a Política de Privacidade e
+                                os
+                                Termos de Serviço do Google.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap JS e dependências -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"
+            integrity="sha384-JHzfMU0XY4r7ZhoDJpSM6G/3imVNCv1TKgVH69ccWx4V0GPl9dh5CJwoXStjvVRR"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+2jA6jC3Rz3O5W/kW2jHKRtL/3Zd6kus4+g"
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>

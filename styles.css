@@ -170,7 +170,7 @@ body {
     text-decoration: none;
 }
 
-/*Responsividade Miku*/
+/*Responsividade Miku ----------------------------------------------------------------------------*/
 @media screen and (min-width: 1px) and (max-width:575px)/*Mudar IMG Carrosel*/
 {
     #Miku2Img {
@@ -301,5 +301,8 @@ body {
         overflow: hidden;
     }
 }
+
+/*Responsividade cards que giram/um dia eu faço ----------------------------------------------------*/
+
 
 
