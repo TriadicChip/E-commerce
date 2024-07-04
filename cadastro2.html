@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro Miyuki Geek</title>
+    <title>Login</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -89,7 +89,7 @@
 
         #divBotoesLCC {
             width: 100%;
-            height: 320px;
+            height: 200px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -159,12 +159,6 @@
             color: black;
         }
     </style>
-    <!--JS-->
-    <script>
-        function redirecionarParaCadastro2() {
-            window.location.href = "cadastro2.html";
-        }
-    </script>
 </head>
 
 <body>
@@ -180,43 +174,30 @@
                                     alt="Logo do Site" style="width: 220px; height: 250px;">
                             </a>
                         </div>
-                        <div class="linha-rosa mt-1 mb-5"></div>
-                        <!-- Botões de Criar Conta e Login -->
-                        <div id="divBotoesLCC" class="text-center">
-                            <button id="alignButtons"
-                                class="btn btn-outline-primary mb-3 d-flex justify-content-left align-items-left"><img
-                                    class="d-flex justify-content-left align-items-left mr-2 ml-2"
-                                    src="imagens/Logo_Google_Colorido.png" alt="Logo do google"
-                                    style="height: 40px; width: 40px;">
-                                <p>Continue com Google</p>
-                            </button>
-                            <button id="alignButtons"
-                                class="btn btn-outline-primary mb-3 d-flex justify-content-left align-items-left"><img
-                                    class="d-flex justify-content-left align-items-left mr-2 ml-2"
-                                    src="imagens/Logo_Twitter_Colorido.png" alt="Logo do google"
-                                    style="height: 40px; width: 40px;">
-                                <p>Continue com Twitter</p>
-                            </button>
-                            <button id="alignButtons"
-                                class="btn btn-outline-primary mb-3 d-flex justify-content-left align-items-left"><img
-                                    class="d-flex justify-content-left align-items-left mr-2 ml-2"
-                                    src="imagens/Logo_Insta_Colorido.png" alt="Logo do google"
-                                    style="height: 40px; width: 40px;">
-                                <p>Continue com Instagram</p>
-                            </button>
-                            <button id="alignButtons"
-                                class="btn btn-outline-primary mb-3 d-flex justify-content-left align-items-left"><img
-                                    class="d-flex justify-content-left align-items-left mr-2 ml-2"
-                                    src="imagens/Logo_Facebook_Colorido.png" alt="Logo do google"
-                                    style="height: 30px; width: 30px;">
-                                <p>Continue com Facebook</p>
-                            </button>
-                            <button id="alignButtons"
-                                class="btn btn-outline-primary mb-3 d-flex justify-content-center align-items-center"
-                                onclick="redirecionarParaCadastro2()">
-                                <p>Cadastre-se com um endereço de email</p>
-                            </button>
-                        </div>
+                        <div class="linha-rosa mt-1 mb-4"></div>
+
+                        <!-- Criar conta usando -->
+                        <form>
+                            <div id="colorES" class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Nome:</label>
+                                <input type="name" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div id="colorES" class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Endereço de Email:</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" value="email@exemplo.com">
+                            </div>
+                            <div id="colorES" class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Senha:</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+
+                            <div class="divLogIn mt-5">
+                                <button type="submit" class="btn btn-primary">Cadastrar-se</button>
+                            </div>
+                        </form>
+
                         <!-- Captcha -->
                         <div class="captcha-text mt-5">
                             <p>Este site é protegido pelo reCAPTCHA Enterprise e aplicam-se a Política de Privacidade e
