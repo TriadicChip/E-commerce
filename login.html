@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Cadastro</title>
+    <title>Login</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -21,7 +21,7 @@
             border-radius: 80px;
             background: linear-gradient(to top, #FD7CC5, #F4BBCC);
             border: 2px solid white;
-            height: 750px;
+            height: 1110px;
         }
 
         .linha-rosa {
@@ -75,7 +75,7 @@
 
         /*Background*/
         .fundoRosinha {
-            height: 850px;
+            height: 1210px;
             background: linear-gradient(to top, #DD3567, #34001E);
             display: flex;
             justify-content: center;
@@ -89,7 +89,7 @@
 
         #divBotoesLCC {
             width: 100%;
-            height: 100px;
+            height: 200px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -112,13 +112,53 @@
             border: white solid 1px;
             color: white;
         }
-    </style>
-    <!--JS-->
-    <script>
-        function redirecionarParaLogin() {
-            window.location.href = "login.html";
+
+        /*Log in*/
+        .divLogIn {
+            height: 30px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-    </script>
+
+        .divLogIn button {
+            width: 50%;
+            height: 45px;
+            background: linear-gradient(to right, #FF007A, #DD22DD);
+            border-radius: 20px;
+            border: 1px black solid;
+            transition: transform 0.2s ease, background-color 0.2s ease;
+            font-size: 22px;
+        }
+
+        .divLogIn button:hover {
+            transform: scale(1.02);
+            border: white solid 1px;
+            color: white;
+        }
+
+        .divEsqueceuSuaSenha {
+            width: 100%;
+            height: 50px;
+        }
+
+        .divEsqueceuSuaSenha a {
+            color: white;
+        }
+
+        #alignButtons p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            margin-bottom: 3px;
+        }
+
+        #colorES label{
+            color: black;
+        }
+    </style>
 </head>
 
 <body>
@@ -134,34 +174,66 @@
                                     alt="Logo do Site" style="width: 220px; height: 250px;">
                             </a>
                         </div>
+                        <div class="linha-rosa mt-1 mb-5"></div>
                         <!-- Botões de Criar Conta e Login -->
-                        <div id="divBotoesLCC" class="text-center mb-3">
-                            <button class="btn btn-outline-primary mb-3">Criar uma Conta</button>
-                            <button class="btn btn-outline-primary" onclick="redirecionarParaLogin()">Login</button>
+                        <div id="divBotoesLCC" class="text-center mb-5">
+                            <button id="alignButtons"
+                                class="btn btn-outline-primary mb-3 d-flex justify-content-left align-items-left"><img
+                                    class="d-flex justify-content-left align-items-left mr-2 ml-2"
+                                    src="imagens/Logo_Google_Colorido.png" alt="Logo do google"
+                                    style="height: 40px; width: 40px;">
+                                <p>Continue com Google</p>
+                            </button>
+                            <button id="alignButtons"
+                                class="btn btn-outline-primary mb-3 d-flex justify-content-left align-items-left"><img
+                                    class="d-flex justify-content-left align-items-left mr-2 ml-2"
+                                    src="imagens/Logo_Twitter_Colorido.png" alt="Logo do google"
+                                    style="height: 40px; width: 40px;">
+                                <p>Continue com Twitter</p>
+                            </button>
+                            <button id="alignButtons"
+                                class="btn btn-outline-primary mb-3 d-flex justify-content-left align-items-left"><img
+                                    class="d-flex justify-content-left align-items-left mr-2 ml-2"
+                                    src="imagens/Logo_Insta_Colorido.png" alt="Logo do google"
+                                    style="height: 40px; width: 40px;">
+                                <p>Continue com Instagram</p>
+                            </button>
+                            <button id="alignButtons"
+                                class="btn btn-outline-primary mb-3 d-flex justify-content-left align-items-left"><img
+                                    class="d-flex justify-content-left align-items-left mr-2 ml-2"
+                                    src="imagens/Logo_Facebook_Colorido.png" alt="Logo do google"
+                                    style="height: 30px; width: 30px;">
+                                <p>Continue com Facebook</p>
+                            </button>
                         </div>
+
                         <!-- Linha Rosa -->
-                        <div class="linha-rosa mt-4 mb-4"></div>
+                        <div class="linha-rosa mt-5 mb-4"></div>
+
                         <!-- Criar conta usando -->
-                        <div class="opcoes-login text-center mb-3">
-                            <div class="alignCriarContaUsando">
-                                <p>Criar sua conta usando</p>
+                        <form>
+                            <div id="colorES" class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Endereço de Email:</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" value="email@exemplo.com">
                             </div>
-                            <div id="div-social-links" class="social-links">
-                                <a href=""><img class="img-fluid" src="imagens/logo-insta.png" alt="Instagram"
-                                        width="65" height="65"></a>
-                                <a href=""><img class="img-fluid" src="imagens/Logo_Face.png" alt="Facebook" width="60"
-                                        height="55"></a>
-                                <a href=""><img class="img-fluid" src="imagens/Logo-Google.png" alt="Google" width="58"
-                                        height="58"></a>
-                                <a href=""><img class="img-fluid" src="imagens/Logo_Twitter.png" alt="Twitter"
-                                        width="65" height="65"></a>
+                            <div id="colorES" class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Senha:</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                <div class="divEsqueceuSuaSenha">
+                                    <a href="#">Esqueceu sua senha?</a>
+                                </div>
                             </div>
-                        </div>
+
+                            <div class="divLogIn">
+                                <button type="submit" class="btn btn-primary">Entrar</button>
+                            </div>
+                        </form>
+
                         <!-- Captcha -->
-                        <div class="captcha-text">
+                        <div class="captcha-text mt-5">
                             <p>Este site é protegido pelo reCAPTCHA Enterprise e aplicam-se a Política de Privacidade e
-                                os
-                                Termos de Serviço do Google.</p>
+                                os Termos de Serviço do Google.</p>
                         </div>
                     </div>
                 </div>
