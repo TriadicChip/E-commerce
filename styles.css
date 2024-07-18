@@ -81,7 +81,7 @@ body {
 }
 
 /*Footer*/
-.divFooter{
+.divFooter {
     background: linear-gradient(to bottom, #ED5F46, #C3006B);
 }
 
@@ -95,7 +95,7 @@ body {
     border: black 1px solid;
 }
 
-.divDestaquesDaSemana{
+.divDestaquesDaSemana {
     width: 100%;
     height: 70px;
     justify-content: center;
@@ -104,7 +104,7 @@ body {
     margin-bottom: 15px;
 }
 
-.destaquesDaSemana{
+.destaquesDaSemana {
     width: 450px;
     height: 45px;
     border-radius: 25px;
@@ -116,16 +116,17 @@ body {
     color: white;
 }
 
-.divDescontosSemanaisFundo{
+.divDescontosSemanaisFundo {
     width: 100%;
     height: 750px;
     background: linear-gradient(to right, #FD7CC5, #F4BBCC);
     margin-top: 70px;
     border-top: 10px solid black;
     border-bottom: 10px solid black;
+    /*display: none;*/
 }
 
-/*Carousel de Cards*/ 
+/*Carousel de Cards*/
 .innerCards {
     border: none;
     outline: none;
@@ -134,18 +135,19 @@ body {
 }
 
 .card {
-    width: 18rem; /* Ajuste o tamanho conforme necessário */
+    width: 18rem;
+    /* Ajuste o tamanho conforme necessário */
 }
 
 /*Cards 2*/
-.divLancamentosRecentesFundo{
+.divLancamentosRecentesFundo {
     width: 100%;
     height: 750px;
     background: linear-gradient(to right, #D10466, #882AAE);
     border-bottom: 10px solid black;
 }
 
-.CIcards{
+.CIcards {
     height: 500px;
 }
 
@@ -170,139 +172,185 @@ body {
     text-decoration: none;
 }
 
+/*Carrosel*/
+#one_card_carrosel {
+    display: none;
+}
+
+#two_cards_carrosel {
+    display: none;
+}
+
+#three_cards_carrosel {
+    display: block;
+} 
+
 /*Responsividade Miku ----------------------------------------------------------------------------*/
-@media screen and (min-width: 1px) and (max-width:575px)/*Mudar IMG Carrosel*/
-{
+@media screen and (min-width: 1px) and (max-width:575px)
+/*Mudar IMG Carrosel*/
+    {
     #Miku2Img {
         content: url('imagens/Hatsune\ Miku\,\ the\ Muse\ of\ Creation\ -\ small.webp');
     }
 
-    #divJuan{
+    #divJuan {
         height: 400px;
         overflow: hidden;
         border: black 1px solid;
     }
 }
 
-@media screen and (min-width: 575px) and (max-width: 767px)/*Mudar IMG Carrosel*/
-{
+@media screen and (min-width: 575px) and (max-width: 767px)
+/*Mudar IMG Carrosel*/
+    {
     #Miku2Img {
         content: url('imagens/Hatsune\ Miku\,\ the\ Muse\ of\ Creation\ -\ small.webp');
     }
 
-    #divJuan{
+    #divJuan {
         height: 680px;
         overflow: hidden;
         border: black 1px solid;
     }
 }
 
-@media screen and (min-width: 767px) and (max-width: 991px)/*Diminuir Carrosel*/
-{
-    #divJuan{
+@media screen and (min-width: 767px) and (max-width: 991px)
+/*Diminuir Carrosel*/
+    {
+    #divJuan {
         height: 290px;
         overflow: hidden;
         border: black 1px solid;
     }
 }
 
-@media screen and (min-width: 991px) and (max-width: 1200px)/*Diminuir Cabeçalho*/
-{
-    #divJuan{
+@media screen and (min-width: 991px) and (max-width: 1200px)
+/*Diminuir Cabeçalho*/
+    {
+    #divJuan {
         height: 390px;
         overflow: hidden;
     }
 }
 
 /*Responsividade Nene*/
-@media screen and (min-width: 1px) and (max-width:575px)/*Mudar IMG Carrosel*/
-{
+@media screen and (min-width: 1px) and (max-width:575px)
+/*Mudar IMG Carrosel*/
+    {
     #Nene2Img {
         content: url('imagens/Nendoroid\ Momosuzu\ Nene\ -\ small.webp');
     }
 
-    #divJuan{
+    #divJuan {
         height: 400px;
         overflow: hidden;
         border: black 1px solid;
     }
 }
 
-@media screen and (min-width: 575px) and (max-width: 767px)/*Mudar IMG Carrosel*/
-{
+@media screen and (min-width: 575px) and (max-width: 767px)
+/*Mudar IMG Carrosel*/
+    {
     #Nene2Img {
         content: url('imagens/Nendoroid\ Momosuzu\ Nene\ -\ small.webp');
     }
 
-    #divJuan{
+    #divJuan {
         height: 680px;
         overflow: hidden;
         border: black 1px solid;
     }
 }
 
-@media screen and (min-width: 767px) and (max-width: 991px)/*Diminuir Carrosel*/
-{
-    #divJuan{
+@media screen and (min-width: 767px) and (max-width: 991px)
+/*Diminuir Carrosel*/
+    {
+    #divJuan {
         height: 290px;
         overflow: hidden;
         border: black 1px solid;
     }
 }
 
-@media screen and (min-width: 991px) and (max-width: 1200px)/*Diminuir Cabeçalho*/
-{
-    #divJuan{
+@media screen and (min-width: 991px) and (max-width: 1200px)
+/*Diminuir Cabeçalho*/
+    {
+    #divJuan {
         height: 390px;
         overflow: hidden;
     }
 }
 
 /*Responsividade Toki*/
-@media screen and (min-width: 1px) and (max-width:575px)/*Mudar IMG Carrosel*/
-{
+@media screen and (min-width: 1px) and (max-width:575px)
+/*Mudar IMG Carrosel*/
+    {
     #Toki2Img {
         content: url('imagens/Toki\ Asuma\ \(Bunny\ Girl\)\ -\ small.webp');
     }
 
-    #divJuan{
+    #divJuan {
         height: 400px;
         overflow: hidden;
         border: black 1px solid;
     }
 }
 
-@media screen and (min-width: 575px) and (max-width: 767px)/*Mudar IMG Carrosel*/
-{
+@media screen and (min-width: 575px) and (max-width: 767px)
+/*Mudar IMG Carrosel*/
+    {
     #Toki2Img {
         content: url('imagens/Toki\ Asuma\ \(Bunny\ Girl\)\ -\ small.webp');
     }
 
-    #divJuan{
+    #divJuan {
         height: 680px;
         overflow: hidden;
         border: black 1px solid;
     }
 }
 
-@media screen and (min-width: 767px) and (max-width: 991px)/*Diminuir Carrosel*/
-{
-    #divJuan{
+@media screen and (min-width: 767px) and (max-width: 991px)
+/*Diminuir Carrosel*/
+    {
+    #divJuan {
         height: 290px;
         overflow: hidden;
         border: black 1px solid;
     }
 }
 
-@media screen and (min-width: 991px) and (max-width: 1200px)/*Diminuir Cabeçalho*/
-{
-    #divJuan{
+@media screen and (min-width: 991px) and (max-width: 1200px)
+/*Diminuir Cabeçalho*/
+    {
+    #divJuan {
         height: 390px;
         overflow: hidden;
     }
 }
 
 /*Responsividade cards que giram/um dia eu faço ----------------------------------------------------*/
+@media screen and (min-width: 610px) and (max-width: 900px)
+/*Entre 885px e 550px troco pro carrossel de 2card*/
+    {
+    #two_cards_carrosel {
+        display: block;
+    }
+    #three_cards_carrosel {
+        display: none;
+    } 
+}
 
-
-
+@media screen and (min-width: 1px) and (max-width: 610px)
+/*Entre 885px e 550px troco pro carrossel de 2card*/
+    {
+    #two_cards_carrosel {
+        display: none;
+    }
+    #three_cards_carrosel {
+        display: none;
+    } 
+    #one_card_carrosel{
+        display: block;
+    }
+}
