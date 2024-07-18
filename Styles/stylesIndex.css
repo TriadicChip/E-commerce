@@ -183,14 +183,14 @@ body {
 
 #three_cards_carrosel {
     display: block;
-} 
+}
 
 /*Responsividade Miku ----------------------------------------------------------------------------*/
 @media screen and (min-width: 1px) and (max-width:575px)
 /*Mudar IMG Carrosel*/
     {
     #Miku2Img {
-        content: url('../imagens/ Miku\,\ the\ Muse\ of\ Creation\ -\ small.webp');
+        content: url('../imagens/Hatsune\ Miku\,\ the\ Muse\ of\ Creation\ -\ small.webp');
     }
 
     #divJuan {
@@ -336,9 +336,10 @@ body {
     #two_cards_carrosel {
         display: block;
     }
+
     #three_cards_carrosel {
         display: none;
-    } 
+    }
 }
 
 @media screen and (min-width: 1px) and (max-width: 610px)
@@ -347,10 +348,12 @@ body {
     #two_cards_carrosel {
         display: none;
     }
+
     #three_cards_carrosel {
         display: none;
-    } 
-    #one_card_carrosel{
+    }
+
+    #one_card_carrosel {
         display: block;
     }
 }
