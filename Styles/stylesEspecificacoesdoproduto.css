@@ -1,0 +1,91 @@
+/*Cabeçalho*/
+body {
+    background: linear-gradient(to right, #FF439D, #882AAE);
+}
+
+.backgroundGradient {
+    background: linear-gradient(to bottom, #ED5F46, #C3006B);
+}
+
+.Loguinho {
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.navbar-brand {
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.divPesquisar {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.divPesquisar button {
+    border: solid 2px white;
+}
+
+.divPesquisar button:hover {
+    border: solid 2px rgb(172, 7, 89);
+}
+
+.divPesquisar button:active {
+    transform: scale(0.9);
+}
+
+#borderCategorias {
+    border: 1px white solid;
+}
+
+#fundoDrop {
+    background: linear-gradient(to right, #ED5F46, #C3006B);
+}
+
+#divCE {
+    border-radius: 5px;
+    border: 1px white solid;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#borderButton {
+    border: 1px white solid;
+    border-radius: 5px;
+    height: 37px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#borderCarrito {
+    margin-top: 6px;
+}
+
+#borderButton:hover {
+    border: 1px rgb(172, 7, 89) solid;
+}
+
+#borderButton:active {
+    transform: scale(0.9);
+    border: white 1px solid;
+}
+
+/*Footer*/
+.divFooter {
+    background: linear-gradient(to bottom, #ED5F46, #C3006B);
+}
+
+.hoverLink:hover {
+    background: linear-gradient(to right, #FF439D, #882AAE);
+}

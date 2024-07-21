@@ -1,3 +1,4 @@
+/*Cabeçalho*/
 body {
     background: linear-gradient(to right, #FF439D, #882AAE);
 }
@@ -89,6 +90,7 @@ body {
     background: linear-gradient(to right, #FF439D, #882AAE);
 }
 
+/*Carrosel inicio*/
 .carousel-inner {
     height: 450px;
     overflow: hidden;
@@ -172,7 +174,7 @@ body {
     text-decoration: none;
 }
 
-/*Carrosel*/
+/*Carrosels que ligam e desligam*/
 #one_card_carrosel {
     display: none;
 }
