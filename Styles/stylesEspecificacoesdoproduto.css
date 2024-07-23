@@ -1,6 +1,7 @@
 /*Cabeçalho*/
 body {
     background: linear-gradient(to right, #FF439D, #882AAE);
+    min-height: 100vh;
 }
 
 .backgroundGradient {
@@ -89,3 +90,236 @@ body {
 .hoverLink:hover {
     background: linear-gradient(to right, #FF439D, #882AAE);
 }
+
+/*Bases e conteudos*/
+#baseEsquerda {
+    height: 810px;
+}
+
+#baseEsquerda,
+#baseDireita {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Altura mínima das colunas */
+}
+
+/*Dentro das divs*/
+.imagensEsquerdaGeral{
+    height: 780px;
+    width: 200px;
+}
+.imagensEsquerdaDivsIndividuais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 194px;
+}
+
+.imagensEsquerdaDivsIndividuais img{
+   height: 170px;
+   width: 150px;
+   margin-top: 5px;
+   border: solid black 1px;
+}
+
+.imgDireitaGeral{
+    height: 780px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgDireitaGeral img{
+    height: 753px;
+    width: 450px;
+    border: solid black 1px;
+}
+
+.InfProduto{
+    width: 500px;
+    background: black;
+    height: 754px;
+}
+
+.SobreProduto{
+        height: 624px;
+}
+
+.ButtonsComprarCarrinho{
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+#Comprar{
+    background: #FF007A;
+    height: 55px;
+    width: 180px;
+    border: 1px black solid;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#Comprar:hover {
+    border: 1px rgb(172, 7, 89) solid;
+}
+
+#Comprar:active {
+    transform: scale(0.9);
+    border: white 1px solid;
+}
+
+#VerCarrinho{
+    background: #C996E6;
+    height: 55px;
+    width: 180px;
+    border: 1px black solid;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#VerCarrinho:hover {
+    border: 1px rgb(172, 7, 89) solid;
+}
+
+#VerCarrinho:active {
+    transform: scale(0.9);
+    border: white 1px solid;
+}
+
+.SobreProduto p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.SobreProduto div{
+    margin-left: 10px;
+}
+
+/*CarroselDebaixoDeTudo*/
+
+/*Carousel de Cards*/
+.innerCards {
+    border: none;
+    outline: none;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.card {
+    width: 18rem;
+    /* Ajuste o tamanho conforme necessário */
+}
+
+/*Cards 2*/
+.divLancamentosRecentesFundo {
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(to right, #D10466, #882AAE);
+    border-bottom: 10px solid black;
+}
+
+.CIcards {
+    height: 500px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+#Miku2Img {
+    display: block;
+}
+
+#Nene2Img {
+    display: block;
+}
+
+#Toki2Img {
+    display: block;
+}
+
+.sem-sublinhado {
+    text-decoration: none;
+}
+
+/*Carrosels que ligam e desligam*/
+#one_card_carrosel {
+    display: none;
+}
+
+#two_cards_carrosel {
+    display: none;
+}
+
+#three_cards_carrosel {
+    display: block;
+}
+
+
+/*Responsividade cards que giram/um dia eu faço ----------------------------------------------------*/
+@media screen and (min-width: 610px) and (max-width: 900px)
+/*Entre 885px e 550px troco pro carrossel de 2card*/
+    {
+    #two_cards_carrosel {
+        display: block;
+    }
+
+    #three_cards_carrosel {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1px) and (max-width: 610px)
+/*Entre 885px e 550px troco pro carrossel de 2card*/
+    {
+    #two_cards_carrosel {
+        display: none;
+    }
+
+    #three_cards_carrosel {
+        display: none;
+    }
+
+    #one_card_carrosel {
+        display: block;
+    }
+}
+
+/*Carrosel inicio*/
+.divDestaquesDaSemana {
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.destaquesDaSemana {
+    width: 450px;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: #FF007A;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+.divDescontosSemanaisFundo {
+    width: 100%;
+    height: 710px;
+    background: linear-gradient(to right, #FD7CC5, #F4BBCC);
+    margin-top: 70px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    /*display: none;*/
+}
+
