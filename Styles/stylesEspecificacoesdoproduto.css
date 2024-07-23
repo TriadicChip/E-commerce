@@ -125,17 +125,18 @@ body {
 }
 
 .imgDireitaGeral{
-    height: 780px;
+    height: 753px;
     width: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    border: solid black 1px;
 }
 
 .imgDireitaGeral img{
     height: 753px;
-    width: 450px;
-    border: solid black 1px;
+    width: 500px; 
 }
 
 .InfProduto{
